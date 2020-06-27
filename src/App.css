@@ -1,0 +1,59 @@
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+.main-app {
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: grid;
+  grid-template-columns: 15% 25% 35% 25%;
+  grid-template-rows: 22% 56% 22%;
+}
+
+
+
+.name-container{
+  position: relative;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.name {
+  font-size: xx-large;
+  position: absolute;
+  top: 70%;
+  right: 5%;
+}
+
+
+
+.job-container {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  
+}
+.job-title {
+  height: 20%;
+  font-size: medium;
+  padding: 5%;
+  color: rgb(117,117,117); 
+
+}
+
+
+
+
+
+
